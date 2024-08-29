@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+.rounded{
+    border-bottom-left-radius: none;
+}
+
+.isipandangan{
+    @apply bg-gray-400 text-white
+}
+
+.title{
+    @apply text-gray-500 
+}
+
+.btn{
+    @apply text-2xl p-8 bg-gray-400 rounded-md text-white hover:text-gray-400 hover:bg-white cursor-pointer transition-all ease-out duration-100
+}
+
+.btnmenus{
+    @apply bg-gray-400 text-white p-3 pl-4 rounded-xl hover:bg-gray-200 hover:text-gray-500 transition-all ease-out duration-150 hover:cursor-pointer
+}
+
+
