@@ -23,4 +23,8 @@
     @apply bg-gray-400 text-white p-3 pl-4 rounded-xl hover:bg-gray-200 hover:text-gray-500 transition-all ease-out duration-150 hover:cursor-pointer
 }
 
+.background{
+    background-image: linear-gradient(to bottom, rgb(239, 39, 39) 20%, rgb(247, 242, 242) 40%);
+}
+
 
