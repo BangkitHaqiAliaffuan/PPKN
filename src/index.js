@@ -62,7 +62,7 @@ btnPengertian.addEventListener('click', () => {
 
 btnPetaKonsep.addEventListener('click', () => {
     if (petaKonsep.classList.contains('hidden')){
-        // petaKonsep.classList.remove('hidden');
+        petaKonsep.classList.remove('hidden');
         petaKonsep.classList.add('flex');
     }
     else {
